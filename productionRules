@@ -1,0 +1,7 @@
+Term = Number NextTerm ;
+NextTerm = Operator Number NextTerm | empty
+Number = 1N' | ... | 9N'
+N' = 0N' | ... | 9N' | empty
+Operator = + | - | * | /
+
+BODMAS
